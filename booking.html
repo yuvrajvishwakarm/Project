@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+    <style>
+     
+           .login{
+            width: 550px;
+            height: 600px;
+            margin-left: 400px;
+            background-color: rgb(53, 53, 255);
+            list-style-type: none;
+            text-decoration: none;
+            box-shadow: 2px 10px 12px 2px;
+        }
+    </style>
+</head>
+<body>
+       <div class="login">
+        <form action="login.php" method="POST">
+            <h1 style="text-align: center; color: white; font-size: 40px;">Login Page</h1>
+        <label for="your name"  style="font-size: 35px; color: white; margin-left: 20px;">Your Name</label>
+        <input type="text" name="yn" style="width: 280px; height: 30px; margin-left: 45px;"><br><br>
+        <label for="Property Name" style="font-size: 25px;color: white; margin-left: 20px;">Property Name</label>
+        <input type="text" name="pn" style="margin-left: 55px; height: 30px; width: 280px;"><br><br>
+        <label for="No. of rooms" style="font-size: 25px;color: white; margin-left: 20px;">No. of rooms</label>
+        <input type="text" name="nor" style="margin-left: 76px; height: 30px; width: 280px;"><br><br>
+        <label for="Email" style="font-size: 30px;color: white; margin-left: 20px;">Email</label>
+        <input type="text" name="email" style="width: 280px; height: 30px; margin-left: 137px;"><br><br>
+        <label for="password" style="font-size: 30px; color: white; margin-left: 20px;">Password</label>
+        <input type="password" name="password" id="password" name="password" style="margin-left: 95px; height: 30px; width: 280px;"><br><br>
+        <label for="Phone Number" style="font-size: 30px; color: white; margin-left: 20px;">Phone Number</label>
+        <input type="text" name="pno" style="margin-left: 30px; height: 30px; width: 280px;"><br><br>
+        <label for="District" style="font-size: 30px;color: white; margin-left: 20px;">Choose a District:</label>
+        <select name="District" id="District" style="font-size: 25px;">
+            <option value="Prayagraj">Prayagraj</option>
+            <option value="Varanasi">Varanasi</option>
+            <option value="Bhadohi">Bhadohi</option>
+            <option value="Mirzapur">Mirzapur</option>
+            <option value="Jaunpur">Jaunpur</option>
+            <option value="Bihar">Bihar</option>
+            <option value="Pratapghar">Pratapghar</option>
+        </select><br><br>
+        <input type="checkbox" name="district chose1" style="margin-left: 170px; font-size: 20px; margin-top: 14px;"><br>
+        <input type="Submit" value="Submit" style="margin-left: 120px; font-size: 38px; 
+        border: none; background-color: blue; color: white; border-radius: 15px; 
+        margin-top: 15px; box-shadow: 5px 10px 14px 0px; width: 300px;">
+        </form>
+        
+</body>
+</html>

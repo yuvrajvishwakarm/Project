@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        ul{
+            background-color: black;
+            display: flex;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            top: 0;
+        }
+        li{
+            float: left;
+            font-size: 40px;
+        }
+        li a{
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            padding: 16px 18px;
+        }
+        ul li:hover{
+            background-color: green;
+        }
+        div{
+            width: 455px;
+            height: 600px;
+            border: none;
+            border: 1px solid black;
+        }
+       div.map{
+        width: 477;
+       }
+        .Contact{
+            margin-left: 940px;
+            width: 450px;
+            height: 600px;
+            margin-top: -470px;
+            border: none;
+        }
+        input,textarea{
+            width: 310px;
+            height: 50px;
+            font-size: 25px;
+            margin-left: 60px;
+        }
+        p{
+            font-size: 25px;
+        }
+    </style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/fontawesome.min.css" integrity="sha512-J2Gce+WmOttffHOrVKLTlzxIalPXUMDbSfn5ADqp8Vj9EngnjNHr+jjiL3ZB8muEzo+K51gU10X+0eGqGNL7QA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+        <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="contact.html">Contect</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    <div style="border: none;">
+       <h1 style="margin-left: 28px;">The Hotel Welcome To Contact</h1> 
+       <h1 style="margin-left: 30px;">Suggestions</h1>
+       <hr>
+       <p style="margin-left: 30px;">
+        We highly value your comments and suggestions about our facilities.
+        Please, send us any comment or suggestion you might have, so 
+        that we can improve our services.
+       </p>
+       <pre style="margin-left: 30px;"><i class="fa fa-home" aria-hidden="true"></i>	23 C , Thornhill Road, Civil Lines, Allahabad, U.P. , 
+        India – 211001</pre>
+        <h4 style="margin-left: 30px;">8808173176</h4>
+        <h4 style="margin-left: 30px;">	info@wordpress-1443998-5406879.cloudwaysapps.com</h4>
+        <h4 style="margin-left: 30px;"91-7388738722, +91-9335234319</h4>
+    </div>
+    <div class="map" style="width: 47.5px;height: 450px; margin-left: 466px; margin-top: -580px;"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d28822.54293561224!2d81.8264411!3d25.444352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1756274740854!5m2!1sen!2sin" width="489" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+    <form action="sendmessage.php" method="post">
+        <div class="Contact">
+            <input type="text" placeholder="Name:" name="name"><br><br><br>
+            <input type="text" placeholder="Phone No:" name="pn"><br><br><br>
+            <input type="text" placeholder="Email:" name="email"><br><br><br>
+            <textarea placeholder="Message" name="msg" style="height: 180px; "></Textarea><br><br><br>
+            <input type="submit" value="SEND MESSAGE" style="width: 230px; margin-left: 110px;">
+        </div>
+    </form>
+</body>
+</html>
