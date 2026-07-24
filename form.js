@@ -1,0 +1,1 @@
+boy = document.getElementById("demo").innerHTML;

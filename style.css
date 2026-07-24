@@ -1,0 +1,457 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: black;
+    position: fixed;
+    width: 1256px;
+}
+
+ul {
+    color: white;
+}
+
+li {
+    padding: 8px 10px 7px 10px;
+    text-align: center;
+    align-items: center;
+    display: inline-flex;
+}
+
+nav ul li button {
+    background-color: yellow;
+    color: black;
+    font-size: 15px;
+    margin: 0;
+    cursor: pointer;
+    height: 40px;
+    width: 135px;
+    padding: 1px 1px;
+}
+
+nav ul li button:hover {
+    background-color: #ffe100;
+    cursor: pointer;
+}
+
+nav ul li a:hover {
+    color: yellow;
+}
+
+nav ul li a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+video {
+    width: 1256px;
+    box-sizing: border-box;
+    margin-top: -16px;
+}
+
+.btn {
+    margin-top: -550px;
+    color: white;
+    text-align: center;
+}
+
+.btn>h1 {
+    font-size: 65px;
+    margin-top: 30px;
+}
+
+.btn_1 {
+    margin-top: 400px;
+    padding: 18px 22px;
+    margin: 0;
+}
+
+.btn>p {
+    font-size: 35px;
+    margin-top: -20px;
+    padding: 0;
+}
+
+.btn>input {
+    height: 62px;
+    width: 160px;
+    cursor: pointer;
+    justify-content: space-around;
+    border: none;
+    color: #000;
+    font-size: x-large;
+    background-color: yellow;
+    border-radius: 25px;
+}
+
+.flex {
+    height: 220px;
+    width: 1256;
+    background-color: rgba(0, 0, 0, 0.852);
+    display: flex;
+    margin-top: 267px;
+    justify-content: space-around;
+    padding: 100px 10px;
+}
+
+.box1 {
+    width: 290px;
+    height: 200px;
+    background-color: black;
+    color: white;
+    border-radius: 16px;
+    /* margin-top: 250px; */
+    /* margin-left: 100px; */
+    text-align: center;
+    padding: 7px 20px;
+}
+
+.box2 {
+    width: 290px;
+    height: 200px;
+    background-color: black;
+    color: white;
+    border-radius: 16px;
+    /* margin-top: 250px; */
+    /* margin-left: 100px; */
+    text-align: center;
+    padding: 7px 20px;
+}
+
+.box3 {
+    width: 290px;
+    height: 200px;
+    background-color: black;
+    color: white;
+    border-radius: 16px;
+    /* margin-top: 250px; */
+    /* margin-left: 100px; */
+    text-align: center;
+    padding: 7px 20px;
+}
+
+.plan {
+    height: 800px;
+    width: 1256px;
+    background-color: black;
+    color: white;
+    margin-top: -20px;
+}
+
+.plan>h1 {
+    font-size: 45px;
+    text-align: center;
+    padding: 15px;
+}
+
+.box4 {
+    width: 300px;
+    height: 400px;
+    margin-left: 100px;
+    background-color: rgba(87, 85, 85, 0.445);
+    border-radius: 20px;
+    padding: 4px 5px;
+}
+
+.box4 button {
+    color: #000;
+}
+
+.box4 h2 {
+    margin-left: 16px;
+}
+
+.box4 p {
+    margin-left: 40px;
+    font-size: large;
+}
+
+.box5 {
+    width: 300px;
+    height: 400px;
+    background-color: rgba(87, 85, 85, 0.445);
+    border-radius: 20px;
+    margin-left: 477px;
+    margin-top: -420px;
+}
+
+.box5 button {
+    color: #000;
+}
+
+.box5 h2 {
+    padding-left: 20px;
+    padding-top: 25px;
+}
+
+.box5 p {
+    margin-left: 40px;
+    font-size: large;
+}
+
+.box6 {
+    width: 300px;
+    height: 400px;
+    background-color: rgba(87, 85, 85, 0.445);
+    border-radius: 20px;
+    margin-left: 850px;
+    margin-top: -420px;
+}
+
+.box6 h2 {
+    padding-left: 20px;
+    padding-top: 25px;
+}
+
+.box6 p {
+    margin-left: 40px;
+    font-size: large;
+}
+
+.box6 button {
+    color: #000;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+}
+
+.size {
+    height: 130px;
+    width: 850px;
+    margin-top: 150px;
+    margin-left: -650px;
+    border-radius: 20px;
+    background-color: rgba(87, 85, 85, 0.445);
+}
+
+.box4>button {
+    height: 35px;
+    width: 250px;
+    padding: 5px 5px 5px 5px;
+    margin-left: 24px;
+    margin-top: 20px;
+    border-radius: 15px;
+    background-color: yellow;
+}
+
+.box5>button {
+    height: 35px;
+    width: 250px;
+    margin-left: 24px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 15px;
+    margin-top: 45px;
+    background-color: yellow;
+}
+
+.box6>button {
+    height: 35px;
+    width: 250px;
+    margin-left: 24px;
+    margin-top: 40px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 15px;
+    background-color: yellow;
+}
+
+.point1 {
+    margin: 0;
+    padding: 5px 5px 5px 5px;
+}
+
+.point1 p {
+    margin: 0;
+    padding: 35px 5px 0 0;
+    line-height: 5px;
+    font-size: 20px;
+    margin-left: 35px;
+}
+
+.point2 pre {
+    margin-left: 160px;
+    margin-top: -60px;
+    font-size: 19px;
+    padding: 5px 5px 5px 5px;
+}
+
+.point3 pre {
+    margin-left: 380px;
+    margin-top: -95px;
+    font-size: 19px;
+    padding: 5px 5px 5px 5px;
+}
+
+.point4 pre {
+    margin-left: 650px;
+    margin-top: -74px;
+    font-size: 19px;
+    padding: 5px 5px 5px 5px;
+}
+
+.blankbox {
+    height: 600px;
+    background-color: rgba(43, 41, 41, 0.952);
+    color: white;
+    margin-top: -30px;
+}
+
+.blankbox h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 30px;
+    padding: 60px;
+
+}
+
+.container {
+    width: 100%;
+    height: 535px;
+    margin-top: -33px;
+    max-width: 1256px;
+    position: relative;
+
+    background-color: #282727ec;
+}
+
+.title {
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 70px;
+}
+
+.row {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 35px;
+}
+
+.field {
+    flex: 1;
+    margin-top: -20px;
+}
+
+.field select option {
+    width: 1000px;
+    height: auto;
+}
+
+label {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 600;
+    margin-left: 70px;
+    display: block;
+    margin-bottom: 12px;
+}
+
+input,
+select {
+    width: 70%;
+    margin-left: 70px;
+    padding: 18px 22px;
+    border-radius: 14px;
+    border: none;
+    background: #000;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+input::placeholder {
+    color: #777;
+}
+
+select {
+    color: #777;
+}
+
+button {
+    width: 75%;
+    margin-left: 160px;
+    margin-top: 25px;
+    padding: 22px;
+    border-radius: 40px;
+    border: none;
+    background: #ffea00;
+    color: #000;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button {
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(255, 255, 0, 0.4);
+}
+
+.down_box {
+    height: 400px;
+    background-color: #000;
+    margin-top: -21px;
+}
+
+.down_box h1 {
+    color: white;
+}
+
+.gym-footer {
+    background: #111;
+    color: #fff;
+    padding: 40px 0;
+    width: 1256;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-box {
+    width: 220px;
+    margin: 15px;
+}
+
+.footer-box h3,
+.footer-box h4 {
+    color: #ff4d00;
+    margin-bottom: 15px;
+}
+
+.footer-box ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-box ul li {
+    margin-bottom: 8px;
+}
+
+.footer-box ul li a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.footer-box ul li a:hover {
+    color: #ff4d00;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #333;
+    margin-top: 10px;
+}
+
+.footer-bottom p {
+    margin-bottom: 10px;
+}
